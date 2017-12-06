@@ -4,8 +4,8 @@ import requests
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('pr_number')
-parser.add_argument('username')
+parser.add_argument(1)
+parser.add_argument(Shrinandhan)
 args = parser.parse_args()
 
 url = 'https://api.github.com/repos/zulip/zulip-gci-submissions/pulls/{}'.format(args.pr_number)
