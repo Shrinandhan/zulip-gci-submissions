@@ -1,6 +1,8 @@
 import sys
 import argparse
 import requests
+python ./submit-a-pull-request/grader.py <1> <Shrinandhan>
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('pr_number')
